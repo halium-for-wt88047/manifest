@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="wt88047"
+    fetch="https://github.com/halium-for-wt88047" />
+
+	<project path="device/wingtech/wt88047" name="android_device_wingtech_wt88047" revision="ubp-7.1" remote="wt88047" />
+	
+	<project path="device/cyanogen/msm8916-common" name="android_device_cyanogen_msm8916-common" revision="ubp-7.11" remote="wt88047" />
+	<project path="kernel/wingtech/msm8916" name="android_kernel_wingtech_msm8916" revision="ubp-7.1" remote="wt88047" />
+
+	<project path="vendor/wingtech" name="proprietary_vendor_wingtech" revision="ubp-7.1" remote="wt88047" />
+
+</manifest>
